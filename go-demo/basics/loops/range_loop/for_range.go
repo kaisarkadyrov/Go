@@ -25,7 +25,7 @@ func main() {
 	}
 
 	for index, value := range fruits {
-		fmt.Printf("Index: %d | Value: %v | Type: %T", index, value, value, "\n")
+		fmt.Printf("Index: %d | Value: %v | Type: %T \n", index, value, value)
 	}
 
 }
