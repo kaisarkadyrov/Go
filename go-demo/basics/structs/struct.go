@@ -1,19 +1,19 @@
-package main
+package employees
 
 import "fmt"
 
-type Employee struct {
-	name     string
-	age      int
-	isRemote bool
+type Employee struct { // to export variables they need to be capital letter
+	Name     string
+	Age      int
+	IsRemote bool
 }
 
 func main() {
 
 	employee1 := Employee{
-		name:     "Erik",
-		age:      30,
-		isRemote: true,
+		Name:     "Erik",
+		Age:      30,
+		IsRemote: true,
 	}
 
 	fmt.Print(employee1)
