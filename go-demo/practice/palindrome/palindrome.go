@@ -25,4 +25,8 @@ func main() {
 	var x int
 	fmt.Scan(&x)
 	fmt.Println(isPalindrome(x))
+
+	number := 4.3242
+	r := fmt.Sprintf("%.2f", number)
+	fmt.Print(r)
 }
